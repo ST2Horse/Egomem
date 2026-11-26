@@ -1,0 +1,36 @@
+# Video files (excluded per project setup)
+*.mp4
+*.webm
+*.mov
+*.avi
+*.mkv
+
+# Large datasets and archives
+data/egolife/
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Python virtual environments & caches
+.venv/
+egorag-venv/
+egocite-venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Secrets & local environment variables
+.env
+.env.*
+*secret*
+*apikey*
+
+# OS & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
